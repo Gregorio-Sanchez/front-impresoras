@@ -12,6 +12,7 @@ const impresorasAlicante = [
   createData('06ALAV101', 0, 'RG06','172.30.60.245','I065'),
   createData('06ALAV102', 0, 'RG06','172.30.60.249','I066'),
   createData('06ALDEV01', 0, 'RG06','172.30.60.246','I062'),
+  createData('06ALDEV02', 0, 'RG06','172.30.60.239'),
   createData('06ALEXP01', 0, 'RG06','172.30.60.101','I06M'),
   createData('06ALJEF01', 0, 'RG06','172.30.60.241','I06J'),
   createData('06ATTOM01', 0, 'RG06','172.30.60.248','I064'),

@@ -9,9 +9,9 @@ function createData(nameImpresora, numTrabajos, numAlmacen, ip, nombreCorto) {
 //Llamada a la funcion que genera las filas pasándole datos de relleno iniciales
 const impresorasGranada = [
   createData('18ALAV101', 0, 'RG18', '172.30.120.246'),
-  createData('18ALAV102', 0, 'RG18', '172.30.120.243'),
+  createData('18ALAV102', 0, 'RG18', '172.30.120.242'),
   createData('18ALAV201', 0, 'RG18', '172.30.120.246'),
-  createData('18ALAV202', 0, 'RG18', '172.30.120.243'),
+  createData('18ALAV202', 0, 'RG18', '172.30.120.242'),
   createData('18ALDEV01', 0, 'RG18', '172.30.120.247'),
   createData('18ALEXP01', 0, 'RG18', '172.30.120.245'),
   createData('18ALJEF01', 0, 'RG18', '172.30.120.248'),
