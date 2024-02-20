@@ -40,7 +40,7 @@ export const BotonActualizar = memo(({ printer, recibirDatos }) => {
     useEffect(() => {
         const timeoutId = setTimeout(() => {
             setPuedeEjecutar(true); 
-        }, 4000);
+        }, 5000);
 
         return () => {
             clearTimeout(timeoutId); 
@@ -56,7 +56,7 @@ export const BotonActualizar = memo(({ printer, recibirDatos }) => {
                 onClick={onActualizar}
                 title='Actualizar trabajos'
             >
-                <i className="bi bi-cloud-download-fill"></i>
+                <i className="bi bi-arrow-clockwise"></i>
             </button>
             {loading ? <Spinner loading={loading} /> : null}
         </>

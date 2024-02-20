@@ -19,6 +19,7 @@ export const BotonPausa = memo(({ printer }) => {
                 className="btn btn btn-outline-primary"
                 disabled={isLoading}
                 onClick={onPausar}
+                title='Pausar impresora'
             >
                 <i className="bi bi-pause-fill"></i>
             </button>

@@ -77,7 +77,7 @@ const impresorasTodas = [
     createData('17ALAV101', 0, 'RG17', '172.30.95.247'),
     createData('17ALAV102', 0, 'RG17', '172.30.95.242'),
     createData('17ALDEV01', 0, 'RG17', '172.30.95.245'),
-    createData('17ALGVO01', 0, 'RG17', '172.30.95.242'),
+    createData('17ALGVO01', 0, 'RG17', '172.30.95.248'),
     createData('17ALJEF01', 0, 'RG17', '172.30.95.245'),
     createData('17ATTOM01', 0, 'RG17', '172.30.95.246'),
     createData('01ALAV101', 0, 'RG01', '172.30.2.51', 'AV11'),

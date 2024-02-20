@@ -13,6 +13,8 @@ export const Navbar = () => {
     const [valorInicial, setValorInicial] = useState('');
 
     const location = useLocation();
+
+    console.log(location)
     const navigate = useNavigate();
 
     const params = useParams();
@@ -65,8 +67,8 @@ export const Navbar = () => {
         <nav className="navbar bg-body-secondary fixed-top">
             <div className="container-fluid">
 
-                <div className="d-flex align-items-center">
-                    <button
+                <div className="d-flex ">
+                    {/* <button
                         className="navbar-toggler small-toggler-icon"
                         type="button"
                         data-bs-toggle="offcanvas"
@@ -75,9 +77,9 @@ export const Navbar = () => {
                         aria-label="Toggle navigation"
                     >
                         <i className="navbar-toggler-icon"></i>
-                    </button>
+                    </button> */}
 
-                    <Link className="navbar-brand" to="/">Impresoras</Link>
+                    <Link className="navbar-brand" to="/">Inicio</Link>
                     <h4 >{location.pathname.substring(1).toUpperCase()}</h4>
                 </div>
 

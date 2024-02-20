@@ -19,6 +19,7 @@ export const BotonReanuda = memo(({ printer }) => {
                 className="btn btn-outline-dark"
                 disabled={isLoading}
                 onClick={() => onReanudar(printer)}
+                title='Reanudar impresora'
             >
                 <i className="bi bi-play-fill"></i>
             </button>
